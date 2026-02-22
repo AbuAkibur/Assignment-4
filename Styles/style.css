@@ -1,0 +1,32 @@
+        body { font-family: 'Geist', sans-serif; background-color: #f8fafc; }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .card-total:hover {
+            box-shadow: 0 10px 20px -5px rgba(0, 44, 92, 0.2);
+        }
+
+        .card-interview:hover {
+            box-shadow: 0 10px 20px -5px rgba(16, 185, 129, 0.2);
+        }
+
+        .card-rejected:hover {
+            box-shadow: 0 10px 20px -5px rgba(239, 68, 68, 0.2);
+        }
+
+        .tab-active { background-color: #2563eb !important; color: white !important; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); border: none !important; }
+
+        .job-card:hover { box-shadow: 0 10px 20px -5px rgba(0, 44, 92, 0.2); }
+
+        .job-card:hover .trash-btn { color: #ef4444; border-color: #fee2e2; }
+
+        .shadow-interview { 
+            box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3); 
+            border-color: #10b981 !important; 
+        }
+        .shadow-rejected { 
+            box-shadow: 0 10px 15px -3px rgba(248, 113, 113, 0.3); 
+            border-color: #f87171 !important; 
+        }
